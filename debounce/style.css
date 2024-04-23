@@ -1,0 +1,95 @@
+body {
+  height:100hv;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #80808080;
+}
+.cvs,
+.cvs2 {
+  margin-top: 200px;
+  margin-inline: 20px;
+  width: 400px;
+  height:400px;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+.t {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:xx-large;
+  color:#50505080;
+}
+.t2 {
+  position: relative;
+  z-index: 0;
+}
+.t2-1{
+  position: absolute;
+  top:0;
+}
+.t2-2 {
+  opacity: 0;
+}
+.basketball-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.basketball {
+  font-size: 50px;
+}
+
+.bar-container{
+  width: 100%;
+  height: 10px;
+}
+.bar {
+  background-color: #50505050;
+  height: 100%;
+}
+.timer {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+}
+.tag {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: 40px;
+  opacity: 0.5;
+  font-weight:bolder;
+}
+.tag > span:first-child {
+  color: red;
+}
+.wave {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  height: 100%;
+}
+.bounce-circle {
+  position: absolute;
+  top: 250px;
+  width: 16px;
+  height: 6px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 10px #50505050;
+}
+.bounce-circle-red {
+  box-shadow: inset 0 0 10px #ff505050;
+}

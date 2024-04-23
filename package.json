@@ -1,0 +1,14 @@
+{
+  "name": "debounce-throttle",
+  "version": "1.0.0",
+  "description": "Animation description of 'debounce' and 'throttle'",
+  "main": "index.js",
+  "scripts": {
+    "dev-deb": "vite ./debounce/",
+    "dev-thr": "vite ./throttle/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.2.10"
+  }
+}
